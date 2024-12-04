@@ -1,0 +1,9 @@
+<svg id="Icon_plus" data-name="Icon / plus" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 40 40">
+  <g id="MDI_plus" data-name="MDI / plus" opacity="0.996">
+    <g id="Boundary" fill="#8b8b8b" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="40" height="40" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+    </g>
+    <path id="Path_plus" data-name="Path / plus" d="M35,22.143H22.143V35H17.857V22.143H5V17.857H17.857V5h4.286V17.857H35Z" transform="translate(0 0)" fill="#8b8b8b"/>
+  </g>
+</svg>

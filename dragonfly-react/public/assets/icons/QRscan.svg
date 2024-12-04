@@ -1,0 +1,6 @@
+<svg id="icon_QR_scan" data-name="icon / QR scan" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 40 40">
+  <g id="qr_code_scanner">
+    <rect id="Rectangle_2352" data-name="Rectangle 2352" width="40" height="40" fill="none"/>
+    <path id="Path_9550" data-name="Path 9550" d="M15.5,10.1v5.4H10.1V10.1h5.4m2.7-2.7H7.4V18.2H18.2V7.4ZM15.5,24.5v5.4H10.1V24.5h5.4m2.7-2.7H7.4V32.6H18.2V21.8ZM29.9,10.1v5.4H24.5V10.1h5.4m2.7-2.7H21.8V18.2H32.6V7.4ZM21.8,21.8h2.7v2.7H21.8Zm2.7,2.7h2.7v2.7H24.5Zm2.7-2.7h2.7v2.7H27.2Zm-5.4,5.4h2.7v2.7H21.8Zm2.7,2.7h2.7v2.7H24.5Zm2.7-2.7h2.7v2.7H27.2Zm2.7-2.7h2.7v2.7H29.9Zm0,5.4h2.7v2.7H29.9ZM38,11H34.4V5.6H29V2h9Zm0,27V29H34.4v5.4H29V38ZM2,38h9V34.4H5.6V29H2ZM2,2v9H5.6V5.6H11V2Z" fill="#8b8b8b"/>
+  </g>
+</svg>

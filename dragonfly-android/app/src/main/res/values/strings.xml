@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dragonfly</string>
+    <string name="com_auth0_client_id">fJ8WGJoPBVEV3ofRvK0ZXLZSwOBMV1WC</string>
+    <string name="com_auth0_domain">protondx.eu.auth0.com</string>
+    <string name="pairScanner">Pair Scanner</string>
+    <string name="info">Once the device is identified, it will be listed below.</string>
+    <string name="info3">If the device does not appear, Confirm it is pairing mode and you have scanned the device specific SPP bar code from the device user manual</string>
+
+    <string name="info2">Tap to select the device you wish to connect.</string>
+</resources>

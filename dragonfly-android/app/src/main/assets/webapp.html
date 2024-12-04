@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Webcamera</title>
+    <style type="text/css">
+        #container {
+            margin: 0px auto;
+            width: 250px;
+            height: 375px;
+            border: 10px #333 solid;
+        }
+
+        #videoElement {
+            width: 250px;
+            height: 375px;
+            background-color: #666;
+        }
+    </style>
+    <script>
+
+        function startCamera() {
+            if (navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ video: {width:250,height:375,facingMode: {
+      exact: 'environment'
+    }} })
+                    .then(function (stream) {
+                        document.getElementById("videoElement").srcObject = stream;
+                    })
+                    .catch(function (err0r) {
+                        console.log("Something went wrong!");
+                        console.log(err0r);
+                    });
+                document.getElementById("videoElement").onloadeddata = function () {
+                    alert("Browser has loaded the current frame");
+                    window.NativeDevice.htmlCameraReadyToRecord(true);
+                };
+            }
+
+        }
+
+        function getCurrentFrameAndSendToNative() {
+            var preview = document.getElementById("canvas-camera");
+            var vid = document.getElementById("videoElement");
+            preview.width = vid.offsetWidth;
+            preview.height = vid.offsetHeight;
+            var ctx = preview.getContext('2d');            
+            ctx.drawImage(vid, 0, 0,preview.width,preview.height);
+            var data = preview.toDataURL("image/jpeg");
+            console.log(data);
+            window.NativeDevice.framesFromHtml(data,true);
+
+        }
+
+        function startCapturingFrames(frameRate) {
+            setInterval(getCurrentFrameAndSendToNative, 1000 / frameRate);
+        }
+
+    </script>
+</head>
+
+<body bgcolor="yellow" onload="startCamera();">
+<div id="container">
+    <video autoplay="true" id="videoElement">
+
+    </video>
+</div>
+<canvas id="canvas-camera" style="width: 400; height: 400;">
+
+</canvas>
+</body>
+
+</html>

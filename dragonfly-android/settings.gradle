@@ -1,0 +1,6 @@
+rootProject.name = "DragonFly"
+include ':app'
+//include ':openCVLibrary343'
+//include ':OpenCV454'
+include ':opencvLibrary454'
+//include ':opencvLibrary454'

@@ -1,0 +1,9 @@
+<svg id="Icon_help" data-name="Icon / help" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="MDI_help-circle-outline" data-name="MDI / help-circle-outline">
+    <g id="Boundary" fill="#8b8b8b" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="40" height="40" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+    </g>
+    <path id="Path_help-circle-outline" data-name="Path / help-circle-outline" d="M18.2,30.8h3.6V27.2H18.2v3.6M20,2A18,18,0,1,0,38,20,18,18,0,0,0,20,2m0,32.4A14.4,14.4,0,1,1,34.4,20,14.419,14.419,0,0,1,20,34.4M20,9.2a7.2,7.2,0,0,0-7.2,7.2h3.6a3.6,3.6,0,0,1,7.2,0c0,3.6-5.4,3.15-5.4,9h3.6c0-4.05,5.4-4.5,5.4-9A7.2,7.2,0,0,0,20,9.2Z" fill="#8b8b8b"/>
+  </g>
+</svg>

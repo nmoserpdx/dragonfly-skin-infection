@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 40 40">
+  <g id="Icon_comment" data-name="Icon / comment" transform="translate(0 0)">
+    <g id="MDI_message-reply-text" data-name="MDI / message-reply-text">
+      <g id="Boundary" transform="translate(0 0)" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+        <rect width="40" height="40" stroke="none"/>
+        <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+      </g>
+      <path id="Path_message-reply-text" data-name="Path / message-reply-text" d="M29.443,12.291H8.861V8.861H29.443v3.43m0,5.145H8.861v-3.43H29.443v3.43m0,5.145H8.861v-3.43H29.443v3.43M36.3,5.43A3.43,3.43,0,0,0,32.873,2H5.43A3.43,3.43,0,0,0,2,5.43V26.012a3.43,3.43,0,0,0,3.43,3.43H29.443L36.3,36.3Z" transform="translate(0.849 0.848)" fill="#8b8b8b"/>
+    </g>
+  </g>
+</svg>

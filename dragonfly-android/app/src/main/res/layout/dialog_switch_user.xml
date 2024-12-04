@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="850px"
+    style="@style/MaterialAlertDialog_rounded"
+
+    android:layout_height="750px">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/sans_semi_bold"
+                android:text="@string/pairScanner"
+                android:textColor="@color/black2"
+                android:textSize="32px">
+
+            </TextView>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:fontFamily="@font/sans_medium"
+                android:text="@string/info"
+                android:textColor="@color/black2"
+                android:textSize="24px">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:fontFamily="@font/sans_medium"
+                android:text="@string/info3"
+                android:textColor="@color/black2"
+                android:textSize="24px">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:fontFamily="@font/sans_medium"
+                android:text="@string/info2"
+                android:textColor="@color/black2"
+                android:textSize="24px">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/background_outline_gry"
+                android:minHeight="150dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/statusTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    app:fontFamily="@font/sans_medium"
+
+                    android:textColor="#24B34B"
+                    android:textSize="24px"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:nestedScrollingEnabled="true">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+
+                <LinearLayout
+                    android:id="@+id/bt_connected_device_linearLayout"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+
+                    android:background="@drawable/background_filled_green"
+                    android:gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/bt_connected_deviceName_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        app:fontFamily="@font/sans_medium"
+                        android:textColor="@color/black2"
+                        android:textSize="24px">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/bt_connected_deviceStatus_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        app:fontFamily="@font/sans_medium"
+                        android:text="Connected"
+                        android:textColor="@color/black2"
+                        android:textSize="24px">
+
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/disconnect_imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_close">
+
+                    </ImageView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dp"
+
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/closeImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="start|center_vertical"
+                        android:layout_marginTop="10dp"
+                        android:stateListAnimator="@null"
+
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_bg_gry"
+                        app:fontFamily="@font/sans_medium"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="Cancel"
+                        android:textAllCaps="false"
+                        android:textColor="@color/primaryGreen"
+                        android:textSize="18sp">
+
+                    </androidx.appcompat.widget.AppCompatButton>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/confirm_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:background="@drawable/button_bg_gry"
+                        app:fontFamily="@font/sans_medium"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="Confirm"
+                        android:stateListAnimator="@null"
+
+                        android:textAllCaps="false"
+                        android:textColor="@color/tealGry"
+                        android:textSize="18sp">
+
+                    </androidx.appcompat.widget.AppCompatButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>

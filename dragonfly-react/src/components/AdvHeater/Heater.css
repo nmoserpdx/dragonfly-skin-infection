@@ -1,0 +1,12 @@
+.adv-heater-cont {
+  display: flex;
+  width: 100vw;
+  white-space: nowrap;
+}
+
+.heateradv {
+  display: inline-flex;
+  vertical-align: top;
+  justify-content: center;
+  align-items: center;
+}

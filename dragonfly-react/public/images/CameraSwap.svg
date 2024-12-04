@@ -1,0 +1,9 @@
+<svg id="Icon_camera_change" data-name="Icon / camera change" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="MDI_camera-flip-outline" data-name="MDI / camera-flip-outline">
+    <g id="Boundary" fill="#efefef" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="56" height="56" stroke="none"/>
+      <rect x="0.5" y="0.5" width="55" height="55" fill="none"/>
+    </g>
+    <path id="Path_camera-flip-outline" data-name="Path / camera-flip-outline" d="M48.8,8.556H40.558L35.8,3H20.2L15.442,8.556H7.2A5.4,5.4,0,0,0,2,14.111V47.444A5.385,5.385,0,0,0,7.2,53H48.8A5.368,5.368,0,0,0,54,47.444V14.111a5.385,5.385,0,0,0-5.2-5.556m0,38.889H7.2V14.111H17.73l4.758-5.556H33.512L38.4,14.111H48.8V47.444M9.8,28h5.46c1.43-7.528,8.294-12.361,15.34-10.833a12.988,12.988,0,0,1,5.2,2.5l-3.744,4.028A7.28,7.28,0,0,0,28,22.444,7.837,7.837,0,0,0,20.668,28H25.4l-7.8,8.333L9.8,28m30.966,5.556c-1.43,7.528-8.294,12.361-15.366,10.833a13.727,13.727,0,0,1-5.2-2.5l3.744-4.028A7.411,7.411,0,0,0,28,39.111a7.844,7.844,0,0,0,7.358-5.556H30.6l7.8-8.333,7.8,8.333Z" transform="translate(0 0)" fill="#efefef"/>
+  </g>
+</svg>

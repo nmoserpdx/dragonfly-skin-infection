@@ -1,0 +1,8 @@
+<svg id="Icon_Log-out" data-name="Icon Log-out" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_2461" data-name="Group 2461">
+    <rect id="Rectangle_2368" data-name="Rectangle 2368" width="40" height="40" fill="none"/>
+    <g id="Icon_feather-log-out" data-name="Icon feather-log-out" transform="translate(2.15 2.148)">
+      <path id="Union_5" data-name="Union 5" d="M5.1,35.7A5.209,5.209,0,0,1,0,30.4V5.305A5.391,5.391,0,0,1,1.459,1.592,4.984,4.984,0,0,1,5.1,0h6.756V3.441H5.1a1.54,1.54,0,0,0-1.133.508,1.943,1.943,0,0,0-.523,1.355V30.4A1.771,1.771,0,0,0,5.1,32.261h6.756V35.7Zm19.16-9.629,5.855-6.5h-16.4V16.13h16.4l-5.855-6.5,2.553-2.308L35.258,16.7a1.726,1.726,0,0,1,0,2.308l-8.447,9.366Z" fill="#8b8b8b"/>
+    </g>
+  </g>
+</svg>
